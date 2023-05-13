@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\.txt]
+@="txtfile"
+"PerceivedType"="text"
+"Content Type"="text/plain"
+[HKEY_CLASSES_ROOT\.txt\ShellNew]
+"NullFile"=""
+[HKEY_CLASSES_ROOT\txtfile]
+@="ÎÄ±¾ÎÄµµ"
+[HKEY_CLASSES_ROOT\txtfile\shell]
+[HKEY_CLASSES_ROOT\txtfile\shell\open]
+[HKEY_CLASSES_ROOT\txtfile\shell\open\command]
+@="NOTEPAD.EXE %1"
